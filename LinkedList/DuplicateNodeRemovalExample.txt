@@ -1,0 +1,32 @@
+This is an exercise from https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list
+
+I thought I was being a little clever by doing the job recursively.  I originally was using a while loop but was having problems if there were more than one duplicate in a row, i.e. 1 1 1 1 .  This way if the program finds a duplicate it will call itself after it changes the link so that if the follwing Node is also a duplicate it will find that as well.
+
+
+/*
+Node is defined as 
+  class Node {
+     int data;
+     Node next;
+  }
+*/
+
+Node RemoveDuplicates(Node head) {
+  // This is a "method-only" submission. 
+  // You only need to complete this method. 
+    
+        if(head == null || head.next == null) {
+            return head;
+        }
+        Node second = head.next;
+        if(head.data == second.data) {
+            head.next = second.next;
+            RemoveDuplicates(head);
+        }
+        if(head.data != second.data) {
+             RemoveDuplicates(second);
+        }
+           
+        return head;
+
+}

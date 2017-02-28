@@ -1,0 +1,8 @@
+Poker hand calculator list
+
+Refactor Hand and CommunityCards to hold ArrayList of Cards similar to Deck
+
+Write Sort method to sort cards by face value, to make it easier to search for the best hand
+
+finish helper methods for determining best hand and it's value, should use the 7 card total
+

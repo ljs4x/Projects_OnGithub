@@ -1,0 +1,7 @@
+This poker hand calculator will ask you to enter two hole cards and then run 1000 simulated poker games.
+
+I decided to try to build this thing because I wasn't really thinking about Object Oriented programming in a in an OO sense.  I needed a reason to utilize objects and specific object methods.  
+
+Some of the challenges involved in designing this little program were choosing how to value certain hands over others, and how to store groups of Card(s). Originally the Hand object just stored two Cards.  It was later when I decided it would be easier to have them be in an ArrayList to make the sort easier later.
+
+It was also a challenge to just generally remember the little things, like clearing the values in the objects before assigning new ones for another statistical revolution. Live and learn, and thanks for reading!

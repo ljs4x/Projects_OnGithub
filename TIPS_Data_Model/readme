@@ -1,0 +1,5 @@
+For a group practicum project in school I did most of the database design.  I ended up going through 10 different revisions, most having a readme attached for explanation to the rest of the group.  As we coded our project and met with the various stakeholders we realized some things needed to be changed and this resulted in revisions.  
+<p>
+This repo contains just the data model images. I used MySQL Workbench on mac to build them. Actual implentation of the data model was done using our chosen frameworks built in tools.
+<p>
+Full project can be found at https://github.com/panzerama/NSC-AD410-TIP-GROUP1
